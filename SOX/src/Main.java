@@ -22,8 +22,8 @@ public class Main {
                 setShape(shapeFactory.getGeneralPath());
                 currentIndex = socketServer.v.size();
 
-                //g.setColor(Color.RED);
-                //g2d.fill(shape.getBounds());
+                g.setColor(Color.RED);
+                g2d.fill(getGraphicsConfiguration().getBounds());
             }
 
             @Override

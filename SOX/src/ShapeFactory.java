@@ -11,7 +11,7 @@ public class ShapeFactory {
     private Vector<Action> v;
     private int i = 0;      //the index of the current draw point of v
     private boolean isDrawing = true;
-    private int lineWidth = 2;
+    private int lineWidth = 1;
 
     public  ShapeFactory(Vector<Action> v){
         this.v = v;
